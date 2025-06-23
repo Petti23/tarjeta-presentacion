@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarjeta de Presentacion</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class= "tarjeta">
+    <img src="images/foto.png" alt="Foto de Steam de Valentino" class="foto">
+    <h1>Emiliano Valentino Pettinato</h1>
+    <p class = "info">📚 Estudiante de Licenciatura y Análisis de Sistemas </p>
+    <p class = "info"></p>
+    <p class = "info">📧 Email: valentinopettinato@gmail.com </p>
+    <p class = "info">📱 Tel: +54 9 343 476-1021 </p>
+    <p class = "info">📍 Ubicación: Paraná Entre Ríos </p>
+    <p class = "info">🎮 Perfil de Steam: Gasoducto Nestor Kirchner </p>
+  </div>
+</body>
+</html>
