@@ -4,35 +4,37 @@ body{
 
 .tarjeta{
     width: 400px;
-    height: 600px;
+    height: auto;
     background-color: white;
-    margin: 100px auto;
+    margin: 30px auto;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px rgba(233, 1, 1, 0.85);
     text-align: center;
 }
 
 .foto{
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
     border-radius: 50px;
     border: 3px solid #555;
-    margin-bottom: 15px;
 }
 
 h1{
-    font-size: 24px;
-    margin-bottom: 40px;
-    padding-bottom: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.personal-info{
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(1, 46, 181, 0.708);
+    padding: 2px;
 }
 
 .info{
     font-size: 20px;
     font-family: 14px;
     margin: 5px 0;
-    text-align: center;
-    padding: auto;
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    padding: 2px;   
 }
