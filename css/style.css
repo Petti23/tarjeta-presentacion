@@ -18,6 +18,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 25px rgba(207, 4, 4, 0.617);
     text-align: center;
+    transition: all 0.3s ease;
 }
 
 .foto {
@@ -53,5 +54,9 @@ h1 {
 
 .info:hover {
     background-color: #d2e3fc;
+}
+
+.tarjeta:hover{
+    transform: translate(0, -10px);
 }
 
