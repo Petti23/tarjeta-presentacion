@@ -1,40 +1,56 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     background-image: url("../images/foto.jpg");
+    background-size: cover;            
+    background-repeat: no-repeat;      
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.tarjeta{
+.tarjeta {
     width: 400px;
-    height: auto;
-    background-color: white;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(233, 1, 1, 0.85);
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(207, 4, 4, 0.617);
     text-align: center;
 }
 
-.foto{
-    width: 220px;
-    height: 220px;
-    border-radius: 50px;
-    border: 3px solid #555;
+.foto {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #3a3a3a;
 }
 
-h1{
-    font-size: 35px;
-    margin-bottom: 20px;
+h1 {
+    font-size: 28px;
+    color: #222;
 }
 
-.personal-info{
-    border-radius: 25px;
-    box-shadow: 0 0 10px rgba(1, 46, 181, 0.708);
-    padding: 2px;
-}
-
-.info{
-    font-size: 20px;
-    font-family: 14px;
-    margin: 5px 0;
+.personal-info {
+    background-color: #f2f6ff;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
     text-align: left;
-    padding: 2px;   
 }
+
+.info {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+    background-color: #e8f0fe; 
+    padding: 10px 12px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(2, 203, 230, 0.48);
+    border-left: 4px solid #1a73e8;
+}
+
+.info:hover {
+    background-color: #d2e3fc;
+}
+
